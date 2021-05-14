@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martin Rossil - Frontend developer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="i/avatar.jpg" alt="Avatar" class="avatar">
+            <div class="header-content">
+              <h1>Hi<br />My name is Martin Rossil</h1>
+              <div class="subtitle">
+                UX/UI <span class="dot">•</span>
+                Front-end Developer <span class="dot">•</span>
+                Performance optimizer <span class="dot">•</span>
+                Dad <span class="dot">•</span>
+                Aarhus, Denmark
+              </div>
+              <div class="contacts">
+                <a href="https://github.com/martinrossil" target="_blank" rel="noopener noreferrer">
+                  <span class="icon">
+                    <img src="i/logo_github.svg" alt="GitHub" />
+                  </span>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://twitter.com/martinrossil" target="_blank" rel="noopener noreferrer">
+                  <span class="icon">
+                    <img src="i/logo_twitter.svg" alt="Twitter" />
+                  </span>
+                  <span>Twitter</span>
+                </a>
+              </div>
+            </div>
+            </div>
+        </header>
+        <section>
+            <h2>My Coding Activity & Stats</h2>
+            <codersrank-summary class="widget" username="martinrossil" show-avatar="false" show-header="false" min-width="420"branding="false"></codersrank-summary>
+            <codersrank-activity class="widget activity-widget" username="martinrossil" legend="false" branding="false" labels tooltip step="5"></codersrank-activity>
+            <codersrank-skills-chart class="widget" username="martinrossil" branding="false" legend labels tooltip skills="JavaScript,TypeScript,HTML" svg-width="1120" svg-height="400"></codersrank-skills-chart>
+        </section>
+        <section>
+            <h2>Work Experience</h2>
+            <codersrank-work-experience username="martinrossil" logos branding="false"></codersrank-work-experience>
+        </section>
+        <footer>
+            <!-- Generic footer copy -->
+        </footer>
+    </main>
+    <script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
+    <script src="https://unpkg.com/@codersrank/activity/codersrank-activity.min.js"></script>
+    <script src="https://unpkg.com/@codersrank/skills-chart/codersrank-skills-chart.min.js"></script>
+    <script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
+</body>
+</html>
