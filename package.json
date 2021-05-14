@@ -1,0 +1,22 @@
+{
+  "name": "martinrossil.github.io",
+  "version": "0.0.1",
+  "description": "Martin Rossil github page",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve -s ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinrossil/martinrossil.github.io.git"
+  },
+  "author": "Martin Rossil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinrossil/martinrossil.github.io/issues"
+  },
+  "homepage": "https://github.com/martinrossil/martinrossil.github.io#readme",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
+}
